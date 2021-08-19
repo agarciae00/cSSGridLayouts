@@ -1,0 +1,17 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	display:  grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-template-rows: min-content auto min-content ;
+}
+
+header {
+	grid-column: 1 / -1;
+}
+
+footer {
+	grid-column: 1 / -1;
+}
